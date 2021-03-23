@@ -79,7 +79,6 @@ body {
 }
 .header__content {
     text-align: center;
-    background-color: green;
 }
 .header__title {
     font-family: "HelveticaNeueLTProLt", sans-serif;
@@ -408,6 +407,7 @@ input[type='number'] {
     .about__inner {
         grid-gap: 30px;
     }
+}
 @media screen and (max-width: 769px) {
     .about {
         height: auto;
@@ -515,6 +515,7 @@ input[type='number'] {
     .menu__burger.close span::before {
        bottom: 0px;
        transform: rotate(-45deg);
+    }
 }
  @media screen and (max-width: 376px) {
     .logo {
@@ -621,12 +622,4 @@ input[type='number'] {
     .provide__inner {
         padding-top: 100px;
     }
-    
-
-
-
-
-
-
-
  }

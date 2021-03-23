@@ -79,6 +79,7 @@ body {
 }
 .header__content {
     text-align: center;
+    background-color: green;
 }
 .header__title {
     font-family: "HelveticaNeueLTProLt", sans-serif;

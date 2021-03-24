@@ -409,6 +409,17 @@ input[type='number'] {
     }
 }
 @media screen and (max-width: 769px) {
+    .team {
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .team__inner {
+        display: block;
+    }
+    .team__item {
+        margin-bottom: 30px;}
+
+
     .about {
         height: auto;
         padding-bottom: 200px;
@@ -515,7 +526,7 @@ input[type='number'] {
     .menu__burger.close span::before {
        bottom: 0px;
        transform: rotate(-45deg);
-    }
+    }   
 }
  @media screen and (max-width: 376px) {
     .logo {
